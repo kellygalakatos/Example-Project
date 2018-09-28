@@ -14,6 +14,7 @@
 		FA64D9D5215E34A200E70475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA64D9D3215E34A200E70475 /* LaunchScreen.storyboard */; };
 		FA64D9E0215E34A200E70475 /* ExampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64D9DF215E34A200E70475 /* ExampleProjectTests.swift */; };
 		FA64D9EB215E34A200E70475 /* ExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64D9EA215E34A200E70475 /* ExampleProjectUITests.swift */; };
+		FA64D9FA215E35AC00E70475 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA64D9F9215E35AC00E70475 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA64D9E6215E34A200E70475 /* ExampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64D9EA215E34A200E70475 /* ExampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectUITests.swift; sourceTree = "<group>"; };
 		FA64D9EC215E34A200E70475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA64D9F9215E35AC00E70475 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA64D9FA215E35AC00E70475 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				FA64D9DE215E34A200E70475 /* ExampleProjectTests */,
 				FA64D9E9215E34A200E70475 /* ExampleProjectUITests */,
 				FA64D9C8215E349F00E70475 /* Products */,
+				FA64D9F8215E35AB00E70475 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				FA64D9EC215E34A200E70475 /* Info.plist */,
 			);
 			path = ExampleProjectUITests;
+			sourceTree = "<group>";
+		};
+		FA64D9F8215E35AB00E70475 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA64D9F9215E35AC00E70475 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
